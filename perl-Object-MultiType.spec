@@ -6,6 +6,7 @@
 %define	pdir	Object
 %define	pnam	MultiType
 Summary:	Perl Objects as Hash, Array, Scalar, Code and Glob at the same time
+Summary(pl):	Obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocze¶nie
 Name:		perl-Object-MultiType
 Version:	0.04
 Release:	1
@@ -23,7 +24,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module return an object that works like a Hash, Array, Scalar,
 Code and Glob object at the same time.
 
-The usual way is to call it from your module at new():
+The usual way is to call it from your module at new().
+
+%description -l pl
+Ten modu³ zwraca obiekt dzia³aj±cy jako hasz, tablica, skalar, kod i
+glob jednocze¶nie. Zwykle wywo³uje siê go przy new().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
