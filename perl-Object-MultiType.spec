@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Object
-%define	pnam	MultiType
+%define		pdir	Object
+%define		pnam	MultiType
 Summary:	Object::MultiType - Perl objects as hash, array, scalar, code and glob at the same time
 Summary(pl):	Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocze¶nie
 Name:		perl-Object-MultiType
