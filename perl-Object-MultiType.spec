@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Object
 %define	pnam	MultiType
-Summary:	Perl Objects as Hash, Array, Scalar, Code and Glob at the same time
-Summary(pl):	Obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocze¶nie
+Summary:	Object::MultiType - Perl objects as hash, array, scalar, code and glob at the same time
+Summary(pl):	Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocze¶nie
 Name:		perl-Object-MultiType
 Version:	0.04
 Release:	1
-# Same as Perl
+# Same as perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +21,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module return an object that works like a Hash, Array, Scalar,
+This module returns an object that works like a Hash, Array, Scalar,
 Code and Glob object at the same time.
 
 The usual way is to call it from your module at new().
