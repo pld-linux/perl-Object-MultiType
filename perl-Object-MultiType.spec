@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Object
 %define	pnam	MultiType
@@ -10,8 +10,8 @@ Summary(pl):	Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, k
 Name:		perl-Object-MultiType
 Version:	0.04
 Release:	1
-# Same as perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5997746d8bbe57c3fa7e581f4fe5ebe7
