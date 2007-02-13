@@ -6,7 +6,7 @@
 %define		pdir	Object
 %define		pnam	MultiType
 Summary:	Object::MultiType - Perl objects as hash, array, scalar, code and glob at the same time
-Summary(pl.UTF-8):   Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocześnie
+Summary(pl.UTF-8):	Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocześnie
 Name:		perl-Object-MultiType
 Version:	0.05
 Release:	1
