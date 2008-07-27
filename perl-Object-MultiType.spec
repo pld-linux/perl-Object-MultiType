@@ -9,7 +9,7 @@ Summary:	Object::MultiType - Perl objects as hash, array, scalar, code and glob 
 Summary(pl.UTF-8):	Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocześnie
 Name:		perl-Object-MultiType
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
