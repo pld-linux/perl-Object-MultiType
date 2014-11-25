@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Object
 %define		pnam	MultiType
+%include	/usr/lib/rpm/macros.perl
 Summary:	Object::MultiType - Perl objects as hash, array, scalar, code and glob at the same time
 Summary(pl.UTF-8):	Object::MultiType - obiekty perlowe jako hasze, tablice, skalary, kod i globy jednocześnie
 Name:		perl-Object-MultiType
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	171ed010dab19fb8b94f22a5fca97814
+URL:		http://search.cpan.org/dist/Object-MultiType/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
